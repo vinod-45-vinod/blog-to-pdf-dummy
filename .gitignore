@@ -1,45 +1,13 @@
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-venv/
 env/
-ENV/
-.venv
-*.egg-info/
-dist/
-build/
-htmlcov/
-.coverage
-.coverage.*
-.pytest_cache/
-*.cover
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.npm
-.eslintcache
-coverage/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Project specific
+venv/
 *.pdf
+.pytest_cache/
+.coverage
+htmlcov/
+.env
 *.log
-ci-cd-reports/
-source-code-clean/
-
-# OS
-Thumbs.db
-.DS_Store
