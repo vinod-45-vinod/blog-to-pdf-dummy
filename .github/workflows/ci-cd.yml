@@ -2,9 +2,12 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - main
+      - 'features/**'
   pull_request:
-    branches: [ main ]
+    branches: 
+      - main
 
 jobs:
   # STAGE 1: BUILD
